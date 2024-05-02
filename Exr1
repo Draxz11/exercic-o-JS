@@ -1,0 +1,12 @@
+
+let username = prompt("Digite um nome de usuário:")
+let senha = prompt ("Digite a senha:")
+
+if (username == "admin") {
+    console.log("Voce é admiun");
+}
+    if (username == "admin" && senha == "senha123" ) {
+        console.log("login bem sucedido")
+    } else {
+        console.log("Voce não tem permissão de acesso")
+    }
