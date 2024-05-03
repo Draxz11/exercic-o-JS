@@ -5,3 +5,24 @@
 //Valor total da compra de R$ 100,01 a R$ 200,00: desconto de 10%.
 //Valor total da compra acima de R$ 200,00: desconto de 20%.
 //Exiba o valor final da compra com o desconto aplicado.
+
+let valor = parseFloat (prompt("Digite o valor da compra"))
+
+
+if (valor <= 100)
+{
+    let Valord1 = valor
+    alert ("Valor final da compra é de R$: " + Valord1)
+}
+
+if (valor > 100 && valor <=200)
+{
+    let valord2 = valor * 0.90
+    alert ("Valor final da compra é de R$: " + valord2)
+}
+
+if (valor > 200 )
+{
+    let valord3 = valor * 0.80
+    alert ("Valor final da compra é de R$: " + valord3)
+}
