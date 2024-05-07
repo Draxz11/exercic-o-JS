@@ -1,0 +1,13 @@
+
+// for(let contador = 0; numAlunos < 5; contador ++) {
+    // prompt("Digite o nome do aluno: ")
+// }
+
+let opcao = prompt("Digite uma opcao \n 0 para sair: ")
+
+while (opcao != "0") {
+    console.log("Repetiuuuuu")
+
+}
+
+console.log("Saiuuuu")
