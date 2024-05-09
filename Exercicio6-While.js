@@ -1,9 +1,13 @@
 // WHILE
 // 6. Imprimir números pares de 0 a 20 utilizando o loop while
 
-let par = 0;
+let num = 0;
 
-while(par < 20) {
-    par += 2
-    console.log(par)
+console.log("Numeros pares de 0 a 20: ");
+
+while (num <= 20){
+    if(num % 2 == 0){
+        console.log(num)
+    }
+    num++;
 }

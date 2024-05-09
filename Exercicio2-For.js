@@ -3,3 +3,5 @@
 for (let i = 2; i <= 10; i += 2) {
     console.log(i)
 }
+
+for(let num = 1; num <=10; num++)

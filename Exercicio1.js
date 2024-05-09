@@ -3,3 +3,7 @@
 for( let contador = 1; contador <= 10; contador++) {
     console.log("Número " + contador)
 }
+
+for(let num = 1; num <= 10; num--){
+    console.log(num)
+}

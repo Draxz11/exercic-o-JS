@@ -3,9 +3,10 @@
 // idade e mostre uma mensagem quando a idade do usuário for
 // maior que 18.
 
-let idade = prompt("Informe sua idade: ")
+let idade = parseInt(prompt("Digite sua idade: "));
 
-while (idade <= 18) {
-    console.log("Sem permissão para entrar...")
-    idade = prompt("Deve ter mais de 18 anos")
+while(idade < 18){
+    idade = parseInt(prompt("Voce é menor de idade. Por favor, digite sua idade novamente: "))
 }
+
+console.log("Voce é maior de idade" + idade)
